@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "vendas-online-backend/node_modules",
+    "test", "dist", "**/*spec.ts"]
+}
