@@ -17,7 +17,8 @@
     "test:watch": "vendas-online-backend/node_modules/.bin/jest --watch",
     "test:cov": "vendas-online-backend/node_modules/.bin/jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register vendas-online-backend/node_modules/.bin/jest --runInBand",
-    "test:e2e": "vendas-online-backend/node_modules/.bin/jest --config ./test/jest-e2e.json"
+    "test:e2e": "vendas-online-backend/node_modules/.bin/jest --config ./test/jest-e2e.json",
+    "migration:create": "npx typeorm migration:create"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
