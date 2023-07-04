@@ -29,7 +29,11 @@ export class UserService {
         id: userId,
       },
       relations: {
-        addresses: true,
+        addresses: {
+          city: {
+            state: true,
+          },
+        },
       },
     });
   }
