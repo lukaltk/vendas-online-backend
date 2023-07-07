@@ -13,7 +13,7 @@
     "start:debug": "vendas-online-backend/node_modules/.bin/nest start --debug --watch",
     "start:prod": "node dist/main",
     "lint": "vendas-online-backend/node_modules/.bin/eslint \\\"{src,apps,libs,test}/**/*.ts\\\" --fix",
-    "test": "vendas-online-backend/node_modules/.bin/jest",
+    "test": "jest",
     "test:watch": "vendas-online-backend/node_modules/.bin/jest --watch",
     "test:cov": "vendas-online-backend/node_modules/.bin/jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register vendas-online-backend/node_modules/.bin/jest --runInBand",
