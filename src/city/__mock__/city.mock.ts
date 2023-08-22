@@ -3,7 +3,7 @@ import { stateMock } from '../../state/__mock__/state.mock';
 
 export const cityMock: CityEntity = {
   id: 1,
-  name: 'State Mock',
+  name: 'City Mock',
   stateId: stateMock.id,
   createdAt: new Date(),
   updatedAt: new Date(),
